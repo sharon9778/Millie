@@ -35,7 +35,7 @@ global.APIKeys = { // The APIKey is here
 const spack = fs.readFileSync("lib/exif.json")
 const stickerpack = JSON.parse(spack)
 if (stickerpack.spackname == '') {
-  var sticker_name = '💋 ᴍɪʟʟɪᴇ 💋'
+  var sticker_name = '💋 AMMU 💋'
 } else {
   var sticker_name = stickerpack.spackname
 }
@@ -55,7 +55,7 @@ global.wait = '_*Please Wait..*_'
 global.eror = '_*Server Error*_'
 global.fla = 'https://github.com/neera-j/Bot-Files/blob/main/images/millie.jpg'
 
-global.watermark = '© ᴍɪʟʟɪᴇ'
+global.watermark = '© SHARON'
 
 global.multiplier = 69 // The higher it is, the harder it is to level up
 
