@@ -6,7 +6,7 @@ let fetch = require('node-fetch')
 let moment = require('moment-timezone')
 const defaultMenu = {
     before: `╭────────────────╮
-          ✪  *AMMU-MWOL* ✪           
+          ✪  *🅐︎🅜︎🅜︎🅤︎ꨄ︎🅜︎🅦︎🅞︎🅛︎* ✪           
 ╰────────────────╯
        
   `.trimStart(),
@@ -166,8 +166,8 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 ╭━━━━━━ᆫ ᴍᴇɴᴜ ᄀ━━━━━━
 ┃ ⎆  Oi ${ucapan()}
 ┃ ⎆  *NAME* : ${name}
-┃ ⎆  *BOT*   : AMMU-MWOL
-┃ ⎆  *OWNER* :  SHARON-EK
+┃ ⎆  *BOT*   : Ⓐ︎Ⓜ︎Ⓜ︎Ⓤ︎❣︎Ⓜ︎Ⓦ︎Ⓞ︎Ⓛ︎
+┃ ⎆  *OWNER* :  🇸 🇭 🇦 🇷 🇴 🇳 
 ┃ ⎆  *PREFIX* : ᴍᴜʟᴛɪ ᴘʀᴇғɪx 
 ┃ ⎆  *WEEK* : ${week},
 ┃ ⎆  *DATE* : ${date},
@@ -349,7 +349,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    await conn.send2ButtonImg(m.chat, await (await fetch("https://telegra.ph/file/fb5ea87f3aff671b48e38.jpg")).buffer(), text.trim(), '© ᴍɪʟʟɪᴇ ©', 'Owner Bot', '.owner', 'All Commands', '.listt', m)
+    await conn.send2ButtonImg(m.chat, await (await fetch("https://telegra.ph/file/5ece0fa75370c61f0f7ab.jpg")).buffer(), text.trim(), '© ᴍɪʟʟɪᴇ ©', 'Owner Bot', '.owner', 'All Commands', '.listt', m)
   } catch (e) {
     conn.reply(m.chat, 'Sorry, Try Again', m)
     throw e
