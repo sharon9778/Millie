@@ -162,7 +162,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     if (teks == '404') {
       return conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
         "listMessage": {
-          "title": `HI,
+          "title": `Hello 😁..its me..AMMU💃MWOL,
 ╭━━━━━━ᆫ ᴍᴇɴᴜ ᄀ━━━━━━
 ┃ ⎆  Oi ${ucapan()}
 ┃ ⎆  *NAME* : ${name}
